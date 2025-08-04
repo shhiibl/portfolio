@@ -364,7 +364,7 @@ section {
 #contact{
     scroll-margin-top: 100px;
 }    .footer {
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #5f2c82 100%);
+            background: linear-gradient(135deg,#404040 0% white 30%, #404040 100%);
             color: #fff;
             padding: 4rem 1rem 1rem;
             position: relative;

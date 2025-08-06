@@ -10,7 +10,7 @@
   --bg-color: black;
   --second-bg-color: #101010;
   --text-color: white;
-  --main-color:#404040;
+  --main-color:#2e2e2e;
 }
 html {
   font-size: 60%;
@@ -51,7 +51,7 @@ body {
   transform: scale(1.1);
 }
 span {
-  background: linear-gradient(270deg, white 10%, #404040 100%);
+  background: linear-gradient(270deg, #2e2e2e 10%, #f7e7ce 100%);
   background-clip: text;
   color: transparent;
 }
@@ -64,7 +64,7 @@ span {
   border-bottom: 3px solid transparent;
 }
 .navbar a:hover {
-  color: wheat;
+  color: #fce7ce;
   border-bottom: 3px solid var(--main-color);
 }
 .gradient-btn {
@@ -183,7 +183,7 @@ section {
 }
 .about-content p {
   font-size: 2rem;
-  color: wheat;
+  color: white;
   font-style: italic;
   font-weight: bold;
 }
@@ -230,8 +230,8 @@ section {
   transition: 0.3s ease-in-out;
 }
 .skills-box:hover {
-  background-color: var(--second-bg-color);
-  color: #eebbd5;
+  background-color: wheat;
+  color: #2e2e2e;
   border: 5px solid var(--main-color);
   transform: scale(1.03);
 }
